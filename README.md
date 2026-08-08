@@ -1,4 +1,4 @@
-# About Me
+## About Me
 
 Hi, I'm Praveen Kumar. A developer who loves to code and solve problems. Feel free to check out my GitHub and Portfolio ! Link is given below.
 
