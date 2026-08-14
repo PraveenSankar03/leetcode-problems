@@ -1,10 +1,10 @@
 ## About Me
 
-Hi, I'm Praveen Kumar. A developer who loves to code and solve problems. Feel free to check out my GitHub and Portfolio ! Link is given below.
+Hello, I'm Praveen Kumar. A developer who loves to code and solve problems. Feel free to check out my GitHub profile and Portfolio ! Link is given below.
 
 ## About this repo
 
-A collection of my LeetCode problem solutions, implemented in both JavaScript and Python for comparative practice.
+This repository is a collection of my LeetCode problem solutions, implemented in both JavaScript and Python for comparative practice.
 
 ## Contact Me
 
