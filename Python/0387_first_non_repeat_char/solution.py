@@ -1,5 +1,5 @@
 def first_non_repeat_char(string):
-    char_count = {}
+    char_count = dict()
     for char in string:
         if char not in char_count:
             char_count[char] = 1

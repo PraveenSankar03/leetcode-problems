@@ -1,5 +1,5 @@
 def single_number(nums):
-    num_count = {}
+    num_count = dict()
     for num in nums:
         if num not in num_count:
             num_count[num] = 1

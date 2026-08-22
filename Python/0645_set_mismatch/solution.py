@@ -1,11 +1,11 @@
 def find_error_nums(nums):
-    num_count = {}
+    num_count = dict()
     for num in nums:
         if num not in num_count:
             num_count[num] = 1
         else:
             num_count[num] += 1
-    result = []
+    result = list()
     for key,value in num_count.items():
         if value > 1:
             result.append(key)

@@ -1,5 +1,5 @@
 def delete_greatest_in_row(grid):
-    result = []
+    result = list()
     while len(grid[0]) != 0:
         get_max = []
         for i in grid:

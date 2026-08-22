@@ -1,5 +1,5 @@
 def jewels_and_stones(jewels,stones):
-    jewel_dict = {}
+    jewel_dict = dict()
     for letter in stones:
         if letter in jewels:
             if letter not in jewel_dict:

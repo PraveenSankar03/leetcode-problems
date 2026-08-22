@@ -1,5 +1,5 @@
 def move_zeros(nums):
-    replica = []
+    replica = list()
     for num in nums:
         if num != 0:
             replica.append(num)

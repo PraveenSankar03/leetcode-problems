@@ -1,5 +1,5 @@
 def group_anagrams(strs):
-    result = {}
+    result = dict()
     for string in strs:
         canonical = "".join(sorted(string))
         if canonical in result:

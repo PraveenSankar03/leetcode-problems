@@ -1,5 +1,5 @@
 def majority_element(nums):
-    num_count = {}
+    num_count = dict()
     length = len(nums)
     for num in nums:
         num_count[num] = num_count.get(num , 0) + 1

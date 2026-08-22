@@ -1,9 +1,9 @@
 def replace_words(dictionary,sentence):
     sentence = sentence.split(" ")
     refer = set(sentence)
-    check_dict = {}
+    check_dict = dict()
     for word in refer:
-        matches = []
+        matches = list()
         for _dict in dictionary:
             if word[0] == _dict[0]:
                 if len(word) > len(_dict):

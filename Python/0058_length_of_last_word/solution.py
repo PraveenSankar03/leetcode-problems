@@ -1,6 +1,6 @@
 def len_of_last_word(string):
     string = string.split(" ")
-    result = []
+    result = list()
     for word in string:
         if word != "":
             result.append(word)

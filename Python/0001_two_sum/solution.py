@@ -1,5 +1,5 @@
 def twoSum(nums, target):
-    num_map = {}
+    num_map = dict()
     for index, num in enumerate(nums):
         complement = target - num
         if complement in num_map:

@@ -1,5 +1,5 @@
 def remove_duplicates(nums):
-    replica = []
+    replica = list()
     for num in nums:
         if num not in replica:
             replica.append(num)
@@ -7,7 +7,7 @@ def remove_duplicates(nums):
         replica.append("")
     for i in range(len(replica)):
         nums[i] = replica[i] 
-    final = []
+    final = list()
     for num in nums:
         if num != "":
             final.append(num)

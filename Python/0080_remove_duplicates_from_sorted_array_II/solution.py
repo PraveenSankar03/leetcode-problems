@@ -1,5 +1,5 @@
 def remove_duplicates(nums):
-    check_dict = {}
+    check_dict = dict()
     for num in nums:
         if num in check_dict:
             if check_dict[num] < 2:

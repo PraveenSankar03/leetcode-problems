@@ -22,7 +22,7 @@ def robot_return_to_origin(moves):
             else:
                 check_dict['L'] += 1
                 
-    result = []
+    result = list()
     for key,value in check_dict.items():
         result.append(value)
     if sum(result) == 0:

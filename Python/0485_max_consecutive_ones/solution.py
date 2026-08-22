@@ -1,5 +1,5 @@
 def max_consecutive_ones(nums):
-    result = ""
+    result = str()
     for num in nums:
         if num == 1:
             result += str(num)

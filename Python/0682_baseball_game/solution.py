@@ -1,5 +1,5 @@
 def calculate_points(ops):
-    result = []
+    result = list()
     for char in ops:
         if char == "C":
             result.pop()

@@ -1,5 +1,5 @@
 def rotate_image(matrix):
-    copy = []
+    copy = list()
     length = 0
     while len(copy) != len(matrix):
         curr = []

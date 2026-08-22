@@ -3,7 +3,7 @@ def keyboard_row(words):
     row2 = "asdfghjkl"
     row3 = "zxcvbnm"
     
-    result = []
+    result = list()
     for word in words:
         count = 0
         if word[0].lower() in row1:

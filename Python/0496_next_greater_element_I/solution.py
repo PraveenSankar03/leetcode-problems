@@ -1,5 +1,5 @@
 def next_greater_element(nums1,nums2):
-    result = []
+    result = list()
     for num in nums1:
         found_greater = -1
         index = nums2.index(num)
