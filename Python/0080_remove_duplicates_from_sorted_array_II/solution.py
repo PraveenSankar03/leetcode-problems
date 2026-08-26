@@ -6,7 +6,7 @@ def remove_duplicates(nums):
                 check_dict[num] += 1
         else:
             check_dict[num] = 1
-    duplicate = []
+    duplicate = list()
     for key,value in check_dict.items():
         for _ in range(value):
             duplicate.append(key)
