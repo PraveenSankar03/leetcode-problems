@@ -2,7 +2,7 @@ def rotate_image(matrix):
     copy = list()
     length = 0
     while len(copy) != len(matrix):
-        curr = []
+        curr = list()
         for index in range(len(matrix)-1, -1, -1):
             curr.append(matrix[index][length])
         copy.append(curr)
